@@ -1,21 +1,21 @@
-import React from 'react';
+// import React from 'react';
 
-import Aux from '../../../hoc/Auxiliary';
+// import Aux from '../../../hoc/Auxiliary';
 
-const orderSummary = (props) => {
-    const ingredientSummary = props.ingredients.map(ingredient => {
-        return <li>{ingredient}</li>
-    });
+// const orderSummary = (props) => {
+//     const ingredientSummary = props.ingredients.map(ingredient => {
+//         return <li>{ingredient}</li>
+//     });
 
-    return (
-        <Aux>
-            <h3>Your Order</h3>
-            <p>A delicious burger with the following ingredients:</p>
-            <ul>
-                {ingredientSummary}
-            </ul>
-        </Aux>
-    );
-}
+//     return (
+//         <Aux>
+//             <h3>Your Order</h3>
+//             <p>A delicious burger with the following ingredients:</p>
+//             <ul>
+//                 {ingredientSummary}
+//             </ul>
+//         </Aux>
+//     );
+// }
 
-export default orderSummary;
+// export default orderSummary;
