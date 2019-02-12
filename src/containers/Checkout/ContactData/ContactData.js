@@ -66,7 +66,7 @@ class ContactData extends Component {
 
   inputChangedHandler = event => {
     console.log(event.target.value);
-    this.setState({});
+    // this.setState({e});
   };
 
   orderHandler = event => {
